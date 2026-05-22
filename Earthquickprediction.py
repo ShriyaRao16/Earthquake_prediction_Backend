@@ -178,8 +178,8 @@ show_safety_instructions()
 # -----------------------------
 def send_email(recipient, subject, message):
 
-    sender_email = "shriyaraob@gmail.com"
-    sender_password = "aouk skoe ufnt ukuc"
+    sender_email = "senders_mail.com"
+    sender_password = "google two step code "
 
     msg = MIMEText(message)
 
@@ -214,7 +214,7 @@ Stay Safe!
 """
 
     send_email(
-        "shriyarao2024@gmail.com",
+        "recievers_mail@gmail.com",
         "⚠ Earthquake Alert",
         alert_message
     )
